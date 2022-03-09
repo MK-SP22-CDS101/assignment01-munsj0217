@@ -1,6 +1,6 @@
 ---
 title: "Assignment 1: R Markdown practice"
-author: "SoJeong Mun"
+author: "SJ Mun"
 date: "`r Sys.Date()`"
 documentclass: article
 geometry: margin=1in

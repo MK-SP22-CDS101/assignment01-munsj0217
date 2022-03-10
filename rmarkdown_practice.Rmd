@@ -28,6 +28,31 @@ urlcolor: blue
 ---
 
 <!-- Write your Markdown below this line -->
-<p> Hello World! </p>
-# Hello World!
-## Hello World!
+# Section
+Section CDS101-K02  
+
+# Course Goals
+By the end of the course, students will be able to:  
+
+* Use GitHub For Creating a reproducible research document.  
+-- My GitHub username is: _SoJeong Mun_  
+
+* Obtain, clean, transform, and visualize a dataset using the R Programming language.  
+* Interpret and predict dataset trends using statistical inference and models.  
+* Critically examine and interpret Statistical claims reported in mass media.  
+
+# Including Code  
+## Running R code in a code chunk  
+
+```{r}
+x <- 2+2
+x + 3
+```
+The output of first line of code is not printed out because it is assigned to a variable instead.  
+The second line of output is printed out instead, but this means that the calculated value has not been saved for future use.  
+
+## Displaying Graphs
+
+```{r}
+ggplot2::qplot(data = iris, x = Sepal.Length, y = Sepal.Width)
+```

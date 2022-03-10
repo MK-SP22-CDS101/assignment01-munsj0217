@@ -1,32 +1,33 @@
 ---
-title: "Assignment 1: R Markdown practice"
+title: 'Assignment 1: R Markdown practice'
 author: "SoJeong Mun"
 date: "`r Sys.Date()`"
-documentclass: article
+output:
+  pdf_document:
+    dev: pdf
+    df_print: kable
+    fig_caption: no
+    highlight: tango
+    number_sections: yes
+    toc: no
+  word_document:
+    toc: no
+  html_document:
+    dev: svg
+    df_print: kable
+    fig_caption: no
+    number_sections: yes
+    self_contained: yes
+    smart: yes
+    theme: paper
+    toc: no
 geometry: margin=1in
 fontsize: 11pt
-output:
-  html_document:
-    theme: paper
-    self_contained: true
-    toc: false
-    df_print: kable
-    fig_caption: false
-    number_sections: true
-    smart: true
-    dev: svg
-  pdf_document:
-    toc: false
-    df_print: kable
-    fig_caption: false
-    number_sections: true
-    dev: pdf
-    highlight: tango
+documentclass: article
 urlcolor: blue
 ---
 
 <!-- Write your Markdown below this line -->
-
-
-
-
+<p> Hello World! </p>
+# Hello World!
+## Hello World!
